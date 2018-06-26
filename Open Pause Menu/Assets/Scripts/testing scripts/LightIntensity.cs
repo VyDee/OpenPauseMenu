@@ -15,7 +15,7 @@ public class LightIntensity : MonoBehaviour
         /*myLight = GetComponent<Light>();
         lightSlider = GetComponent<Slider>();*/
         myintensity = lightSlider.value;
-        lightSlider.maxValue = 200f;
+        lightSlider.maxValue = 1f;
 
 
     }
